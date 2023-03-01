@@ -1,3 +1,3 @@
 # Table of contents
 
-* [FE\_Survival](README.md)
+- [프론트 생존기](README.md)
