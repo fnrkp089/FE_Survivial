@@ -1,3 +1,3 @@
-# FE\_Survival
+# 프론트 생존기
 
-Survival
+깃북을 활용해보자
