@@ -5,3 +5,5 @@
   * [❤ 개발환경 세팅](front-survival/undefined.md)
   * [🧡 TypeScript](front-survival/typescript.md)
   * [💛 React](front-survival/react.md)
+  * [💚 Testing Library](front-survival/testing-library.md)
+  * [💙 Parcel & Eslint](front-survival/parcel-and-eslint.md)
