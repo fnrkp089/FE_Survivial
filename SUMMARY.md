@@ -7,3 +7,5 @@
   * [💛 React](front-survival/react.md)
   * [💚 Testing Library](front-survival/testing-library.md)
   * [💙 Parcel & Eslint](front-survival/parcel-and-eslint.md)
+* [😆 데브노트 2주차](2/README.md)
+  * [❤ JSX](2/jsx.md)
