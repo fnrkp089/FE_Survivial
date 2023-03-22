@@ -9,3 +9,5 @@
   * [💙 Parcel & Eslint](front-survival/parcel-and-eslint.md)
 * [😆 데브노트 2주차](2/README.md)
   * [❤ JSX](2/jsx.md)
+* [🤣 데브노트 3주차](3/README.md)
+  * [❤ React Component](3/react-component.md)
