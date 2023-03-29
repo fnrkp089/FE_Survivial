@@ -12,3 +12,7 @@
 * [🤣 데브노트 3주차](3/README.md)
   * [❤ React Component](3/react-component.md)
   * [🧡 React State](3/react-state.md)
+* [😜 데브노트 4주차](4/README.md)
+  * [❤ Express](4/express.md)
+  * [🧡 Fetch API & CORS](4/fetch-api-and-cors.md)
+  * [💛 React Hook](4/react-hook.md)
