@@ -43,7 +43,7 @@ Promise는 알다시피 비동기작업의 결과를 다루는 자바스크립�
 `ReadableStream`은 `something.getReader()` 메서드를 사용하여 리더(Reader) 객체를 생성하고, `something.read()` 메서드를 호출하여 데이터 청크(chunk)를 읽는다. \
 읽은 데이터는 Promise 객체를 반환하므로, `then()` 메서드를 사용하여 데이터 처리를 진행한다.
 
-``
+
 
 ## Unicode
 

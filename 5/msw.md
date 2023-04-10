@@ -36,7 +36,7 @@ MSW(Mock Service Worker의 약자, [https://mswjs.io](https://mswjs.io/))는 API
 따라서, Mock Service Worker(MSW) 라이브러리를 통하면, \
 Mock 서버를 구축하지 않아도 API를 네트워크 수준에서 Mocking 할 수 있다.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## MSW 설치
 
@@ -79,7 +79,7 @@ module.exports = {
 
 요청 핸들러 목록(handlers.ts), 브라우저와 서버별 설정(setupTests.ts)파일을 만드는 것을 \
 **mock 정의라고 한다.** \
-****이 파일들은 mock 폴더를 생성 후 관리하는 것이 좋다.
+이 파일들은 mock 폴더를 생성 후 관리하는 것이 좋다.
 
 src/setupTests.ts
 

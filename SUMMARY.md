@@ -22,3 +22,5 @@
   * [🧡 React Testing Libaray](5/react-testing-libaray.md)
   * [💛 MSW](5/msw.md)
   * [💚 PlayWright](5/playwright.md)
+* [☺ 데브노트 6주차](6/README.md)
+  * [❤ External Store](6/external-store.md)

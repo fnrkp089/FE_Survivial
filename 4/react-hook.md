@@ -54,7 +54,7 @@ React는 내부적으로 상태와 라이프사이클을 관리하기 위해 Hoo
   * 상태를 관리할 수 있게 해주는 함수,\
     컴포넌트에서 상태 값을 관리할 수 있으며, 상태 값이 변경될 때마다 컴포넌트가 다시 렌더링되어 화면에 반영됨.\
     이를 통해 React의 재사용성과 가독성을 높일 수 있습니다.
-*   ****[**useEffect**](https://overreacted.io/ko/a-complete-guide-to-useeffect/)****
+*   [**useEffect**](https://overreacted.io/ko/a-complete-guide-to-useeffect/)
 
     * 렌더링 이후에 해야할일,  React 외부와 관련된 일을 정할 수 있다.
     * 부수 효과(side effect)를 처리할 수 있게 해주는 함수
@@ -275,7 +275,7 @@ useLayoutEffect는 렌더링 이후 동기적으로 실행한다.
 **useLayoutEffect는 렌더링이 블록되므로,** \
 **실행 시간이 긴 작업이 포함된 경우, 성능 문제가 발생할 수 있다.**
 
-****
+
 
 ## React StrictMode
 
