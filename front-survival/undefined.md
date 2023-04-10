@@ -49,7 +49,7 @@ npx eslint --init
 
 5. **.gitignore**
    1. 이것은 당연히... 존재해야 쓸모없는것들은 올라가지 않을것.
-   2. ![](<../.gitbook/assets/image (2).png>)
+   2. ![](<../.gitbook/assets/image (1).png>)
 
 ### .bin
 

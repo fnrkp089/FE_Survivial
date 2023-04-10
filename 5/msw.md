@@ -5,7 +5,7 @@
 MSW는 리소스 요청을 가로채서 수정할 수 있는 `Service Worker` 의 기능 중 하나이다.\
 Mock Service Worker는 `서비스 워커`를 이용하여 **API를 모킹**하는 라이브러리이다.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -36,7 +36,7 @@ MSW(Mock Service Worker의 약자, [https://mswjs.io](https://mswjs.io/))는 API
 따라서, Mock Service Worker(MSW) 라이브러리를 통하면, \
 Mock 서버를 구축하지 않아도 API를 네트워크 수준에서 Mocking 할 수 있다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## MSW 설치
 
