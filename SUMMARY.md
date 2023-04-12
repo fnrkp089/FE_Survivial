@@ -24,3 +24,6 @@
   * [💚 PlayWright](5/playwright.md)
 * [☺ 데브노트 6주차](6/README.md)
   * [❤ External Store](6/external-store.md)
+  * [🧡 TSyringe](6/tsyringe.md)
+  * [💛 Redux 따라하기](6/redux.md)
+  * [💚 Usestore-ts](6/usestore-ts.md)

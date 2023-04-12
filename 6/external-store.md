@@ -95,7 +95,57 @@ Flux Architecture에서는 **데이터 흐름이 단방향으로 유지되며,**
 다만, **작은 기능을 위해 초기에 많은 코드들을 작성하게되어 오버 프로그래밍의 위험성이 존재한다.**\
 그렇기 때문에 Redux와 같은 상태 관리 도구들이 등장하기 시작한다.
 
+## useReducer
 
+```javascript
+const [state, dispatch] = useReducer(reducer, initialArg, init);
+
+//reducer는 이러한 함수임
+function reducer(state) {
+  return state + 1;
+  // 상태의 초기값이 있으면
+  // return {...state, x: x + 1};
+}
+```
+
+useReducer는 useState의 대체 함수이다. 아래는 useState로 만들었던 counter를 reducer를 사용해서 만든 코드이다.
+
+```javascript
+const initialState = { count: 0 };
+
+function reducer(state, action) {
+  switch (action.type) {
+    case "increment":
+      return { count: state.count + 1 };
+    case "decrement":
+      return { count: state.count - 1 };
+    default:
+      throw new Error();
+  }
+}
+
+function Counter() {
+  // dispatch에 action type을 전달
+  const [state, dispatch] = useReducer(reducer, initialState);
+  return (
+    <>
+      Count: {state.count}
+      <button onClick={() => dispatch({ type: "decrement" })}>-</button>
+      <button onClick={() => dispatch({ type: "increment" })}>+</button>
+    </>
+  );
+}
+```
+
+useReducer의 첫 번째 인자로 reducer함수를 전달해주고 두 번째 인자로 리듀서의 기본값인 {count: 0}을 넣어준다.
+
+dispatch함수에 action을 전달하면 리듀서 함수가 호출되는 구조이다.
+
+상태를 어떻게 바꾸는지에 대한 비즈니스 로직이 리액트 컴포넌트 외부로 분리될 수 있다는 것이 장점이다.
+
+## useCallback
+
+useCallback을 이용하면 함수가 변경될 때만 새로 렌더링 해줄 수가 있다. 그렇기 때문에 특정 함수를 새로 만들지 않고 재사용하고 싶을 때 사용한다.
 
 
 
