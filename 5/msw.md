@@ -36,7 +36,7 @@ MSW(Mock Service Worker의 약자, [https://mswjs.io](https://mswjs.io/))는 API
 따라서, Mock Service Worker(MSW) 라이브러리를 통하면, \
 Mock 서버를 구축하지 않아도 API를 네트워크 수준에서 Mocking 할 수 있다.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## MSW 설치
 

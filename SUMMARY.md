@@ -27,3 +27,8 @@
   * [🧡 TSyringe](6/tsyringe.md)
   * [💛 Redux 따라하기](6/redux.md)
   * [💚 Usestore-ts](6/usestore-ts.md)
+* [😫 데브노트 7주차](7/README.md)
+  * [❤ Routing](7/routing.md)
+  * [🧡 Routes](7/routes.md)
+  * [💛 Router](7/router.md)
+  * [💚 Navigation](7/navigation.md)
