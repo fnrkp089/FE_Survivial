@@ -11,7 +11,7 @@ E2E 테스트의 목적은 실제 사용자 시나리오를 시뮬레이션하�
 
 만약에 E2E 테스트를 진행하지 않으면 어플리케이션 최종 테스트를 진행할 방법이 없으며, 어플리케이션 사용자가 어플리케이션에 대한 신뢰가 떨어지고 사용의 불편함을 느낄 수 있다.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Headless Chrome
 
