@@ -34,3 +34,4 @@
   * [💚 Navigation](7/navigation.md)
 * [😎 데브노트 8주차](8/README.md)
   * [❤ Design System](8/design-system.md)
+  * [🧡 Style Basics](8/style-basics.md)
