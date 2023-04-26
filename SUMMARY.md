@@ -37,3 +37,5 @@
   * [🧡 Style Basics](8/style-basics.md)
   * [💛 Css In JS](8/css-in-js.md)
   * [💚 Styled-Components](8/styled-components.md)
+  * [💙 props & attrs](8/props-and-attrs.md)
+  * [💜 Global Style & Theme](8/global-style-and-theme.md)
