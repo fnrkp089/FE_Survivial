@@ -40,6 +40,7 @@
   * [💙 props & attrs](8/props-and-attrs.md)
   * [💜 Global Style & Theme](8/global-style-and-theme.md)
 
-## Group 1
+## F-lab
 
-* [🔥 F-lab / Front](group-1/f-lab-front.md)
+* [🔥 F-lab / Front](f-lab/f-lab-front/README.md)
+  * [😀 6월 6일(1주차)](f-lab/f-lab-front/6-6-1.md)
