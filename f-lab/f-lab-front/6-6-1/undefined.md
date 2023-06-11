@@ -119,17 +119,118 @@ const regex = new RegExp('abc');
 
 ```javascript
 const person = {
-  name: 'John',
-  age: 30,
+  name: 'LeeByeongKwan',
+  age: 28,
   hobbies: ['reading', 'running']
 };
 
 const jsonString = JSON.stringify(person);
 console.log(jsonString);
-// 출력: {"name":"John","age":30,"hobbies":["reading","running"]}
+// 출력: {"name":"LeeByeongKwan","age":28,"hobbies":["reading","running"]}
 
 const parsedObject = JSON.parse(jsonString);
 console.log(parsedObject);
-// 출력: { name: 'John', age: 30, hobbies: [ 'reading', 'running' ] }
+// 출력: { name: 'LeeByeongKwan', age: 28, hobbies: [ 'reading', 'running' ] }
+
 
 ```
+
+
+
+## 재귀적으로 깊은 복사 수행하기.
+
+```javascript
+/**
+ * 주어진 객체를 깊은 복사하여 반환합니다.
+ *
+ * @param {Array|Object} obj - 복사할 객체 또는 배열.
+ * @returns {Array|Object} - 깊은 복사된 새로운 객체 또는 배열.
+ */
+function deepCopy(obj) {
+  let innerCopy;
+
+  if (Array.isArray(obj)) {
+    innerCopy= [];
+  } else if (typeof obj === 'object' && obj !== null) {
+    innerCopy= {};
+  } else {
+    return obj;
+  }
+
+  for (let key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      copy[key] = deepCopy(obj[key]);
+    }
+  }
+
+  return copy;
+}
+
+```
+
+재귀적으로 호출되는 과정
+
+예시로 다음과 같은 중첩된 객체를 깊은 복사하는 경우를 가정하자:
+
+```javascript
+const originalObj = {
+  name: 'LeeByeongKwan',
+  age: 28,
+  address: {
+    city: 'Seoul',
+    country: 'Korea'
+  }
+};
+
+```
+
+1. 최초 호출:
+   * `deepCopy(originalObj)` 함수가 최초로 호출됩니다.
+   * `obj` 매개변수에는 `originalObj`가 전달됩니다.
+   * 새로운 빈 객체 `copy`가 생성됩니다.
+2. 첫 번째 속성 복사:
+   * `for...in` 루프에서 첫 번째 속성 `'name'`에 대해 순회합니다.
+   * `key` 변수에는 `'name'`이 할당됩니다.
+   * `obj[key]`는 `'LeeByeongKwan'`을 반환합니다.
+   * `deepCopy('LeeByeongKwan')`이 재귀적으로 호출됩니다.
+   * `'LeeByeongKwan'`은 원시 값이므로 복사하지 않고 그대로 반환됩니다.
+   * `copy['name']`에는 `'LeeByeongKwan'`이 할당됩니다.
+3. 두 번째 속성 복사:
+   * `for...in` 루프에서 두 번째 속성 `'age'`에 대해 순회합니다.
+   * `key` 변수에는 `'age'`가 할당됩니다.
+   * `obj[key]`는 `28`을 반환합니다.
+   * `deepCopy(28)`이 재귀적으로 호출됩니다.
+   * `28`은 원시 값이므로 복사하지 않고 그대로 반환됩니다.
+   * `copy['age']`에는 `28`이 할당됩니다.
+4. 세 번째 속성 복사:
+   * `for...in` 루프에서 세 번째 속성 `'address'`에 대해 순회합니다.
+   * `key` 변수에는 `'address'`가 할당됩니다.
+   * `obj[key]`는 내부 객체 `{ city: 'Seoul', country: 'Korea' }`를 반환합니다.
+   * `deepCopy({ city: 'Seoul', country: 'Korea' })`가 재귀적으로 호출됩니다.
+5. 내부 객체 복사:
+   * `deepCopy({ city: 'Seoul', country: 'Korea' })`에서 새로운 빈 객체 `innerCopy`가 생성됩니다.
+6. 내부 객체의 속성 복사:
+   * `for...in` 루프에서 `'city'` 속성에 대해 순회합니다.
+   * `key` 변수에는 `'city'`가 할당됩니다.
+   * `obj[key]`는 `'Seoul'`을 반환합니다.
+   * `deepCopy('Seoul')`이 재귀적으로 호출됩니다.
+   * `'Seoul'`은 원시 값이므로 복사하지 않고 그대로 반환됩니다.
+   * `innerCopy['city']`에는 `'Seoul'`이
+
+할당됩니다.
+
+1. 내부 객체의 속성 복사:
+   * `for...in` 루프에서 `'country'` 속성에 대해 순회합니다.
+   * `key` 변수에는 `'country'`가 할당됩니다.
+   * `obj[key]`는 `'Korea'`를 반환합니다.
+   * `deepCopy('Korea')`가 재귀적으로 호출됩니다.
+   * `'Korea'`는 원시 값이므로 복사하지 않고 그대로 반환됩니다.
+   * `innerCopy['country']`에는 `'Korea'`이 할당됩니다.
+2. 내부 객체 복사 완료:
+   * `innerCopy` 객체가 완성되었습니다.
+3. 내부 객체 복사본 할당:
+   * `copy['address']`에 `innerCopy` 객체가 할당됩니다.
+4. 재귀 호출 결과 반환:
+   * `copy` 객체가 완성되었습니다.
+5. 최종 결과 반환:
+   * `copy` 객체가 최종 결과로 반환됩니다.
