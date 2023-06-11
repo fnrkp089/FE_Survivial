@@ -43,4 +43,5 @@
 ## F-lab
 
 * [🔥 F-lab / Front](f-lab/f-lab-front/README.md)
-  * [😀 6월 6일(1주차)](f-lab/f-lab-front/6-6-1.md)
+  * [😀 6월 6일(1주차)](f-lab/f-lab-front/6-6-1/README.md)
+    * [❓ JSDoc](f-lab/f-lab-front/6-6-1/jsdoc.md)
