@@ -1,3 +1,7 @@
+---
+description: additional study
+---
+
 # ❗ 추가 공부
 
 * 객체 타입
