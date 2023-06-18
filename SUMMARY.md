@@ -46,3 +46,7 @@
   * [😀 6월 6일(1주차)](f-lab/f-lab-front/6-6-1/README.md)
     * [❓ JSDoc](f-lab/f-lab-front/6-6-1/jsdoc.md)
     * [❗ 추가 공부](f-lab/f-lab-front/6-6-1/undefined.md)
+  * [6월 13일(2주차)](f-lab/f-lab-front/6-13-2/README.md)
+    * [❓ QnA](f-lab/f-lab-front/6-13-2/qna.md)
+    * [❓ 질문](f-lab/f-lab-front/6-13-2/undefined.md)
+    * [❗ AssignMent](f-lab/f-lab-front/6-13-2/assignment.md)

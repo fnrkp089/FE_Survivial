@@ -90,7 +90,7 @@ export default function App() {
 
 box-sizing 속성값을 `border-box`로 설정하면, 요소의 width와 height 속성값에는 테두리와 안쪽 여백의 크기까지 포함된다.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Box-sizing:
 
