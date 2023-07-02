@@ -57,4 +57,5 @@
     * [❤ Addtional Study](f-lab/f-lab-front/6-20-3/addtional-study.md)
   * [😁 6월 27일(4주차)](f-lab/f-lab-front/6-27-4/README.md)
     * [❓ Question](f-lab/f-lab-front/6-27-4/question.md)
-    * [Additional](f-lab/f-lab-front/6-27-4/additional.md)
+    * [❤ Additional](f-lab/f-lab-front/6-27-4/additional.md)
+    * [🤖 ProtoType/Class](f-lab/f-lab-front/6-27-4/prototype-class.md)

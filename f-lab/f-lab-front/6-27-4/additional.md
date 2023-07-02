@@ -2,7 +2,7 @@
 description: 추가공부
 ---
 
-# Additional
+# ❤ Additional
 
 ## 테스트 가능성
 
