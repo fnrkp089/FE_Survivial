@@ -55,3 +55,6 @@
     * [🗺 Map vs WeakMap](f-lab/f-lab-front/6-20-3/map-vs-weakmap.md)
     * [📐 Set vs WeakSet](f-lab/f-lab-front/6-20-3/set-vs-weakset.md)
     * [❤ Addtional Study](f-lab/f-lab-front/6-20-3/addtional-study.md)
+  * [😁 6월 27일(4주차)](f-lab/f-lab-front/6-27-4/README.md)
+    * [❓ Question](f-lab/f-lab-front/6-27-4/question.md)
+    * [Additional](f-lab/f-lab-front/6-27-4/additional.md)
